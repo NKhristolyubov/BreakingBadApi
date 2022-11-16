@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605AC57D2923FBEA00716714 /* imageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AC57C2923FBEA00716714 /* imageCache.swift */; };
 		60BA43B4291ACC6400AD443D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43B3291ACC6400AD443D /* AppDelegate.swift */; };
 		60BA43B6291ACC6400AD443D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43B5291ACC6400AD443D /* SceneDelegate.swift */; };
 		60BA43BB291ACC6400AD443D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BA43B9291ACC6400AD443D /* Main.storyboard */; };
@@ -15,10 +16,11 @@
 		60BA43C8291ACD3C00AD443D /* CharactersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43C7291ACD3C00AD443D /* CharactersTableViewController.swift */; };
 		60BA43CA291ACD9700AD443D /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43C9291ACD9700AD443D /* CharacterCell.swift */; };
 		60BA43CC291ACFD400AD443D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43CB291ACFD400AD443D /* Character.swift */; };
-		60BA43CE291AD04400AD443D /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43CD291AD04400AD443D /* NetWorkManager.swift */; };
+		60BA43CE291AD04400AD443D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA43CD291AD04400AD443D /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		605AC57C2923FBEA00716714 /* imageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCache.swift; sourceTree = "<group>"; };
 		60BA43B0291ACC6400AD443D /* BreakingBadApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBadApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BA43B3291ACC6400AD443D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BA43B5291ACC6400AD443D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		60BA43C7291ACD3C00AD443D /* CharactersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewController.swift; sourceTree = "<group>"; };
 		60BA43C9291ACD9700AD443D /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		60BA43CB291ACFD400AD443D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		60BA43CD291AD04400AD443D /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		60BA43CD291AD04400AD443D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,8 @@
 				60BA43B5291ACC6400AD443D /* SceneDelegate.swift */,
 				60BA43B9291ACC6400AD443D /* Main.storyboard */,
 				60BA43CB291ACFD400AD443D /* Character.swift */,
-				60BA43CD291AD04400AD443D /* NetWorkManager.swift */,
+				60BA43CD291AD04400AD443D /* NetworkManager.swift */,
+				605AC57C2923FBEA00716714 /* imageCache.swift */,
 				60BA43C9291ACD9700AD443D /* CharacterCell.swift */,
 				60BA43C7291ACD3C00AD443D /* CharactersTableViewController.swift */,
 				60BA43BC291ACC6500AD443D /* Assets.xcassets */,
@@ -149,7 +152,8 @@
 			files = (
 				60BA43B4291ACC6400AD443D /* AppDelegate.swift in Sources */,
 				60BA43C8291ACD3C00AD443D /* CharactersTableViewController.swift in Sources */,
-				60BA43CE291AD04400AD443D /* NetWorkManager.swift in Sources */,
+				605AC57D2923FBEA00716714 /* imageCache.swift in Sources */,
+				60BA43CE291AD04400AD443D /* NetworkManager.swift in Sources */,
 				60BA43CC291ACFD400AD443D /* Character.swift in Sources */,
 				60BA43B6291ACC6400AD443D /* SceneDelegate.swift in Sources */,
 				60BA43CA291ACD9700AD443D /* CharacterCell.swift in Sources */,
